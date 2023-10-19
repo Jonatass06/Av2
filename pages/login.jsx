@@ -1,0 +1,18 @@
+
+import ModalLogin from "@/components/ModalLogin";
+import LateralLogo from "@/components/LateralLogo";
+import BoletimProfessor from "@/components/BoletimProfessor";
+
+export default function Index(){
+  
+  
+  return(
+    <div className="flex align-center w-screen h-screen bg-branco">
+    <LateralLogo/>
+    <div className="w-[55%] flex justify-center items-center">
+    <BoletimProfessor/>
+    </div>
+    </div>
+  )
+
+}
